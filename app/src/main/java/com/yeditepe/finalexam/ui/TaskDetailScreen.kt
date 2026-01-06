@@ -10,6 +10,7 @@ import androidx.compose.ui.unit.dp
 fun TaskDetailScreen(title: String) {
 
     Column(modifier = Modifier.padding(16.dp)) {
-        // TODO 4: Display task title
+        Text(text = title)
+        
     }
 }
