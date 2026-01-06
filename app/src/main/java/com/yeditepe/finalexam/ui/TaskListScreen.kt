@@ -14,7 +14,7 @@ import com.yeditepe.finalexam.viewmodel.TaskViewModel
 fun TaskListScreen(viewModel: TaskViewModel = viewModel()) {
     val tasks = viewModel.tasks.value
 
-    // TODO 3: Read task list from ViewModel
+    
 
     Column { tasks.forEach { task ->
         Column(
