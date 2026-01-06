@@ -11,6 +11,6 @@ fun TaskDetailScreen(title: String) {
 
     Column(modifier = Modifier.padding(16.dp)) {
         Text(text = title)
-        
+        // TODO 4: Display task title
     }
 }
