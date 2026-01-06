@@ -14,9 +14,7 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun TaskItemScreen() {
     var isCompleted by remember { mutableStateOf(false) }
-    // TODO 1: Create a mutable state to hold completion status (Boolean)
-    // Initial value should be false
-
+   
     Column(modifier = Modifier.padding(16.dp)) {
 
         Text(
@@ -24,7 +22,7 @@ fun TaskItemScreen() {
             style = MaterialTheme.typography.titleLarge
         )
 
-    
+
         Text(
             text = if (isCompleted) "Completed" else "Not Completed"
         )
@@ -32,7 +30,7 @@ fun TaskItemScreen() {
         Button(
             onClick = {
                 isCompleted = !isCompleted
-             
+
             }
         ) {
             Text("Change Status")
